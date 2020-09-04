@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+  height: 1000px;
+}
+
+
+
+.App-header {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  margin-bottom: 40vh;
+}
+.App-main {
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  top: 300px;
+}
+.top-left {
+  padding: 25vh auto;
+  background-image: linear-gradient(to bottom right, #0f52ba,#19A6A6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+}
+.top-right {
+  padding: 25vh auto;
+  background-image: linear-gradient(to bottom left, #0f52ba,#19A6A6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+}
+.bottom-right {
+  padding: 25vh auto;
+  background-image: linear-gradient(to top left, #0f52ba,#19A6A6);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+}
+.bottom-left {
+  padding: 25vh auto;
+  background-image: linear-gradient(to top right, #0f52ba,#19A6A6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+}
+.Happy-Birthday {
+  z-index: 3;
+}
+.Happy-Birthday .love {
+  position: absolute;
+  top: 4vh;
+  left: 0;
+  margin-left: 7.5vw;
+  font-size: 2.25em;
+  text-shadow: 1px 1px #000;
+}
+.Happy-Birthday .birthday {
+  position: absolute;
+  top: 6vh;
+  right: 0;
+  margin-right: 5.5vw;
+  font-size: 3.5em;
+  text-shadow: 2px 2px #000;
+}
+.Happy-Birthday .note {
+  position: absolute;
+  bottom: 30vh;
+  left: 0;
+  margin-left: 4.5vw;
+  font-size: 1.15em;
+  text-shadow: 2px 2px #000;
+  text-align: left;
+}
+.scroll {
+  position: absolute;
+  left: 3vw;
+  bottom: 3vh;
+  z-index: 4;
+  text-shadow: 2px 2px #000;
+}
+.Happy-Birthday .collage {
+  position: absolute;
+  bottom: 30vh;
+  right: 0;
+  margin-right: 4.5vw;
+  font-size: 1.25em;
+  text-shadow: 2px 2px #000;
+  text-align: left;
+}
+.theres-more {
+  position: absolute;
+  bottom: 3vh;
+  right: 0;
+  margin-right: 4.5vw;
+  font-size: 1em;
+  text-shadow: 2px 2px #000;
+  text-align: left;
+  z-index: 4;
+}
+.collage {
+  max-width: 75vw;
+  z-index: 4;
+}
+.collage img{
+  max-height: 30vh;
+  width: auto;
+  margin: auto 3vw auto auto;
+  position: relative;
+  top: 0vh;
+  right: 0;
+}
+.tilt {
+  width: auto;
+  max-height: 30vh;
+  width: auto;
+  margin: auto 3vw auto auto;
+  bottom: 65vh;
+  left: 3vw;
+
+  
+  position: absolute;
+
+}
+.smirk .me{
+position: relative;
+bottom: 35vh;
+}
+.smirk .kay {
+position: relative;
+top: 15vh;
+left: 3vw;
+}
+.smirk {
+  width: auto;
+  max-height: 30vh;
+  width: auto;
+  margin: auto 3vw auto auto;
+  bottom: 35vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  
+  position: absolute;
+
+}
+.cuties {
+  width: auto;
+  max-height: 30vh;
+  width: auto;
+  margin: auto 3vw auto auto;
+  bottom: 55vh;
+  left: 30vw;
+
+  
+  position: absolute;
+
+}
+.last {
+  width: auto;
+  max-height: 30vh;
+  width: auto;
+ 
+  bottom: 20vh;
+  left: 25vw;
+
+  
+  position: absolute;
+
+}
+.last .kay {
+  position: relative;
+  top: 17.5vh;
+  right: 12.5vw;
+}
+.last .me {
+  position: relative;
+bottom: 15vh;
+right: 5vw;
+}
+.leftOverOne {
+  position: relative;
+  bottom: 25vh;
+  left: 35vw;
+  max-width: 30vw;
+  margin-right: 3vw;
+
+}
+.leftOverTwo {
+  position: relative;
+  bottom: 20vh;
+  left: 20vw;
+  max-width: 30vw;
+  display: flex;
+  flex-direction: row;
+
+}
+.top-collage {
+  max-width: 75vw;
+  z-index: 4;
+  position: absolute;
+  right: 4vw;
+  top: 50%;
+}
+.top-collage img {
+  min-height: 30vh;
+  max-height: 45vh;
+  min-width: 12.5vw;
+  margin: auto 3vw auto auto;
+  position: relative;
+  top: 0vh;
+  right: 0;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
